@@ -12,6 +12,7 @@
 		B96BB15819777B8100A53D2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B96BB15619777B8100A53D2C /* Main.storyboard */; };
 		B96BB15A19777B8100A53D2C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B96BB15919777B8100A53D2C /* Images.xcassets */; };
 		B96BB16619777B8100A53D2C /* SoundBoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96BB16519777B8100A53D2C /* SoundBoardTests.swift */; };
+		B9DADBD919870251008719A0 /* colbertSubtleVideo.wav in Resources */ = {isa = PBXBuildFile; fileRef = B9DADBD819870251008719A0 /* colbertSubtleVideo.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		B96BB15F19777B8100A53D2C /* SoundBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B96BB16419777B8100A53D2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B96BB16519777B8100A53D2C /* SoundBoardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundBoardTests.swift; sourceTree = "<group>"; };
+		B9DADBD819870251008719A0 /* colbertSubtleVideo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = colbertSubtleVideo.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				B96BB15219777B8100A53D2C /* AppDelegate.swift */,
 				B96BB15419777B8100A53D2C /* ViewController.swift */,
+				B9DADBD819870251008719A0 /* colbertSubtleVideo.wav */,
 				B96BB15619777B8100A53D2C /* Main.storyboard */,
 				B96BB15919777B8100A53D2C /* Images.xcassets */,
 				B96BB15019777B8100A53D2C /* Supporting Files */,
@@ -189,6 +192,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9DADBD919870251008719A0 /* colbertSubtleVideo.wav in Resources */,
 				B96BB15819777B8100A53D2C /* Main.storyboard in Resources */,
 				B96BB15A19777B8100A53D2C /* Images.xcassets in Resources */,
 			);
@@ -277,7 +281,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -313,7 +317,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -395,6 +399,7 @@
 				B96BB16B19777B8100A53D2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B96BB16C19777B8100A53D2C /* Build configuration list for PBXNativeTarget "SoundBoardTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +408,7 @@
 				B96BB16E19777B8100A53D2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
